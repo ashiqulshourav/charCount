@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counting</title>
+</head>
+
+<body>
+    <div class="contents">
+        <p>Lorem ipsum, Laudantium <a href="#">voluptates</a> quibusdam <strong>fugit</strong> delectus veritatis.</p>
+        <p>Lorem ipsum dolor sit amet <strong>consectetur</strong>, adipisicing elit. Maiores laudantium, ullam omnis necessitatibus, voluptatem voluptas unde accusamus odio id ducimus fugit laborum est </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nihil eligendi. Odio distinctio recusandae illum eius, tempore quasi asperiores doloremque dolores nobis cupiditate consequatur molestias quibusdam laboriosam corporis nam omnis</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsam ipsa <a href="#">voluptates</a> quibusdam <strong>fugit</strong> porro exercitationem aut vitae distinctio reprehenderit explicabo eos itaque voluptas expedita necessitatibus
+            autem tenetur odit, provident amet numquam qui sunt ad corporis! Quidem numquam aspernatur omnis, dolore aperiam laudantium aliquam id atque nostrum minus architecto? Minus eos repudiandae doloremque?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam optio, ipsa illo quasi, modi velit nemo tenetur deserunt perspiciatis doloribus tempore harum! Id reprehenderit voluptatibus officiis eaque exercitationem quo!</p>
+    </div>
+
+    <script src="char-count.min.js"></script>
+
+    <script>
+        document.querySelector('.contents').characterCounting({
+            maxChar: 200,
+            buttonHideText: "Show Less",
+            buttonShowText: "Show More",
+        });
+    </script>
+</body>
+
+</html>
