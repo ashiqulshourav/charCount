@@ -30,4 +30,3 @@ document.querySelector('.contents').characterCounting({
 ````
 
 ** note: you can add options for multiple items same as single item **
-
